@@ -34,3 +34,19 @@ function topFunction() {
   document.body.scrollTop = 0; // Для Safari
   document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE и Opera
 }
+
+/* -----------
+якорь*/
+
+document.getElementById("anchorMorning").onclick = function () {
+  document.location.href = "programs.html#morning";
+};
+document.getElementById("anchorEvening").onclick = function () {
+  document.location.href = "programs.html#evening";
+};
+document.getElementById("anchorAdaptation").onclick = function () {
+  document.location.href = "programs.html#adaptation";
+};
+document.getElementById("anchorChess").onclick = function () {
+  document.location.href = "programs.html#chess";
+};
