@@ -50,12 +50,12 @@ function topFunction() {
 //   document.location.href = "programs.html#chess";
 // };
 
-window.onload = function () {
-  document
-    .getElementById("anchorMorning")
-    .addEventListener("click", function (e) {
-      document.location.href = "programs.html#morning";
-      document.location.hash = "morning";
-      e.preventDefault();
-    });
-};
+// window.onload = function () {
+//   document
+//     .getElementById("anchorMorning")
+//     .addEventListener("click", function (e) {
+//       document.location.href = "programs.html#morning";
+//       document.location.hash = "morning";
+//       e.preventDefault();
+//     });
+// };
