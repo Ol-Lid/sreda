@@ -37,15 +37,25 @@ function topFunction() {
 
 /* -----------
 якорь*/
-document.getElementById("anchorMorning").onclick = function () {
-  window.location.hash = "programs.html#morning";
-};
-document.getElementById("anchorEvening").onclick = function () {
-  document.location.hash = "programs.html#evening";
-};
-document.getElementById("anchorAdaptation").onclick = function () {
-  document.location.hash = "programs.html#adaptation";
-};
-document.getElementById("anchorChess").onclick = function () {
-  document.location.hash = "programs.html#chess";
+// document.getElementById("anchorMorning").onclick = function () {
+//   window.location.hash = "programs.html#morning";
+// };
+// document.getElementById("anchorEvening").onclick = function () {
+//   document.location.href = "programs.html#evening";
+// };
+// document.getElementById("anchorAdaptation").onclick = function () {
+//   document.location.href = "programs.html#adaptation";
+// };
+// document.getElementById("anchorChess").onclick = function () {
+//   document.location.href = "programs.html#chess";
+// };
+
+window.onload = function () {
+  document
+    .getElementById("anchorMorning")
+    .addEventListener("click", function (e) {
+      document.location.href = "programs.html#morning";
+      document.location.hash = "morning";
+      e.preventDefault();
+    });
 };
