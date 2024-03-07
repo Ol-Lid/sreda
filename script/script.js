@@ -62,15 +62,34 @@ function topFunction() {
 
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("anchorMorning").onclick = function () {
-    window.location.href = "programs.html#morning";
+    document.location.href = "programs.html#morning";
+    addEventListener("load", redirect);
   };
   document.getElementById("anchorEvening").onclick = function () {
     document.location.href = "programs.html#evening";
+    addEventListener("load", redirect);
   };
   document.getElementById("anchorAdaptation").onclick = function () {
     document.location.href = "programs.html#adaptation";
+    addEventListener("load", redirect);
   };
   document.getElementById("anchorChess").onclick = function () {
     document.location.href = "programs.html#chess";
+    addEventListener("load", redirect);
   };
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   window.getElementById("anchorMorning").onclick = function () {
+//     window.location.href = "programs.html#morning";
+//   };
+//   // window.getElementById("anchorEvening").onclick = function () {
+//   //   window.addEventListener("load").location.href = "programs.html#evening";
+//   // };
+//   window.getElementById("anchorAdaptation").onclick = function () {
+//     window.location.href = "programs.html#adaptation";
+//   };
+//   window.getElementById("anchorChess").onclick = function () {
+//     window.location.href = "programs.html#chess";
+//   };
+// });
