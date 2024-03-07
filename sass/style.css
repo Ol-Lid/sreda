@@ -125,6 +125,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -349,6 +352,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -690,6 +696,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -1043,6 +1052,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -1348,6 +1360,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -1653,6 +1668,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -1914,6 +1932,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
@@ -2315,6 +2336,9 @@ a {
 }
 
 .button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   z-index: 90;
   display: flex;
   align-items: center;
